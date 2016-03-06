@@ -1,1 +1,26 @@
-This is Sunil S Nandihalli's website .. under constructuion.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  </head>
+  <body style=" background-color:black; ">
+    <!-- entry point for components -->
+    <div id="regular-content">
+      <canvas id="current-state" width=600 height=400/>
+    </div>
+    <div id="reactjs-content">
+      <h1>reactjs-content is broken</h1>
+    </div>
+    <script src="js/react/react-0.14.7.js" type="text/javascript"></script>
+    <script src="js/out/goog/base.js" type="text/javascript"></script>
+    <script src="js/rubiks_cloact_webapp.js" type="text/javascript"></script>
+    <script src="js/scenejs/scenejs.js" type="text/javascript"></script>
+    <script src="js/webgl/webgl-debug.js" type="text/javascript"></script>
+    <script>
+      goog.require("rubiks_cloact_webapp.core");
+    </script>
+    <script>
+      rubiks_cloact_webapp.core.run();
+    </script>
+  </body>
+</html>
